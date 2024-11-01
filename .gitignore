@@ -1,1 +1,4 @@
 .venv
+gui/build
+gui/dist
+gui/*.spec
