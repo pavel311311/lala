@@ -1,7 +1,9 @@
 """
 stability module
 """
-def pw(x, y):
+class SNP:
     # Stability is for to calculator the snp files performance
-    (x, y) = x+y
-    print(x+y)
+    def pw(x,y):
+        print(x+y)
+
+
