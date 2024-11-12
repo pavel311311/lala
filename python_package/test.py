@@ -1,2 +1,4 @@
 import tools
-tools.SNP.pw(1,2)
+
+a = tools.SNP()
+a.pw(2,3)
