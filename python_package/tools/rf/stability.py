@@ -1,10 +1,4 @@
-"""stability module
 
-calculate stability 
-
-eg.
-   a= stablity(x,y)
-"""
 class SNP:
     """ S参数求解
 
@@ -12,7 +6,6 @@ class SNP:
 
     Attributes:
         pw: 求解x+y对值
-
     """
     def __init__(self) -> None:
         print(123)
