@@ -21,4 +21,4 @@ outline = c << outline(size=(1500,4500),w=40)
 outline.move((-100,-4000))
 pd_array.move((800,131.25))
 
-c.write_gds("./interposer/interposer_800G_Rx.gds")
+c.write_gds("./gds/interposer/interposer_800G_Rx.gds")
