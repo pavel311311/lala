@@ -6,3 +6,6 @@
 用于分析射频相关问题，
 1、可以说实现稳定性求解
 2、可以实现snp画图
+
+# gds/
+Silicon Photonics files
