@@ -1,5 +1,5 @@
 import gdsfactory as gf
-import pad
+from .pad import pad_solder
 
 '''
 The PD Pad Layout below
@@ -29,7 +29,7 @@ def pd_single(pad_size, solder_size, pad_position) -> gf.Component:
     c = gf.Component()
     for n in range(5):
         c.add_ref(gf.components.pad(size=pad_size[n])).move(pad_position[n])
-        c.add_ref(pad.pad_solder(size=solder_size[n])).move(pad_position[n])
+        c.add_ref(pad_solder(size=solder_size[n])).move(pad_position[n])
     return c
 
 @gf.cell

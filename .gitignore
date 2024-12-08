@@ -1,4 +1,5 @@
 training/
 .venv/
 .conda/
-__pycache__
+test/
+*/__pycache__/
