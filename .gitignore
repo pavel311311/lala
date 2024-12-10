@@ -2,5 +2,5 @@ training/
 .venv/
 .conda/
 test/
-*pycache*
+*__pycache__/*
 *temp*
