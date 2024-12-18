@@ -2,4 +2,5 @@ training/
 .venv/
 .conda/
 test/
+#ignore the dir included pycache
 **/*pycache*/
