@@ -1,7 +1,10 @@
-training/
+# ignore the python environment dir
 .venv/
 .conda/
-test/
+
 # ignore all the dir include the "pycache"
 **/*pycache*/
 
+# others
+training/
+test/
